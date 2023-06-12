@@ -17,13 +17,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>>
+            <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
     <build>
         <plugins>
@@ -56,8 +55,8 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-                         
-                         <execution>
+
+                    <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
@@ -76,7 +75,7 @@
                             </rules>
                         </configuration>
                     </execution>
-                         
+
                 </executions>
             </plugin>
         </plugins>
